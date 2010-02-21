@@ -13,7 +13,6 @@ Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 Requires(pre): php-pear
 Requires:      horde-framework
-Requires:      horde-browser
 Requires:      php-mbstring
 Requires:      php-iconv
 Requires:      php-pear-channel-horde
