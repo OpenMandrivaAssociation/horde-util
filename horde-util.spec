@@ -4,7 +4,7 @@
 
 Name:          horde-util
 Version:       0.1.0
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde Util package
 License:       LGPL
 Group:         Networking/Mail
@@ -18,7 +18,6 @@ Requires:      php-iconv
 Requires:      php-pear-channel-horde
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
 
 
 %description
