@@ -61,3 +61,21 @@ fi
 %dir %{peardir}/tests/Util/tests
 %{peardir}/tests/Util/tests/*.phpt
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-3mdv2011.0
++ Revision: 564107
+- Increased release for rebuild
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-2mdv2010.1
++ Revision: 509336
+- increased rel version
+- Removed  Requires:horde-browser to break the infinite build loop problem
+
+* Mon Feb 15 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-1mdv2010.1
++ Revision: 506036
+- replace PreReq with Requires(pre)
+- import horde-util
+
+
