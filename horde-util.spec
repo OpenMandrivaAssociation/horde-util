@@ -4,7 +4,7 @@
 
 Name:          horde-util
 Version:       0.1.0
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Util package
 License:       LGPL
 Group:         Networking/Mail
